@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Z7alSkb2JGZcuFdQ4pZ19GIeal42": {
+      "type": "object",
+      "properties": {
+        "age": {"type": "string"},
+        "major": {"type": "string"},
+        "name": {"type": "string"}
+      },
+      "required": ["age", "major", "name"]
+    },
+    "eJ7r8uRn0QgslyRv4MXRXNdlYkl2": {
+      "type": "object",
+      "properties": {
+        "age": {"type": "string"},
+        "major": {"type": "string"},
+        "name": {"type": "string"}
+      },
+      "required": ["age", "major", "name"]
+    },
+    "highScore": {"type": "integer"}
+  },
+  "required": ["Z7alSkb2JGZcuFdQ4pZ19GIeal42", "eJ7r8uRn0QgslyRv4MXRXNdlYkl2", "highScore"]
+}
