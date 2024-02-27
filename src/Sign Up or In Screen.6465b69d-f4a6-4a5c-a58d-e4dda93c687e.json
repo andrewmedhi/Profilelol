@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "6465b69d-f4a6-4a5c-a58d-e4dda93c687e",
+                "Y": 0.03753662109375,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0.03753662109375,
+                "style": {
+                    "position": "absolute",
+                    "left": "36.45333658854167%",
+                    "top": "9.900680153087519%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "3021db05-a250-4a23-9a9e-519b91eaaedf",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "TextInput",
             "translatedName": "Text Input",
             "properties": {
@@ -249,10 +279,10 @@
                 "Height": 45,
                 "Width": 311,
                 "Visible": true,
-                "X": 64,
-                "Y": 19,
-                "RelativeX": 64,
-                "RelativeY": 19,
+                "X": 50,
+                "Y": 35,
+                "RelativeX": 50,
+                "RelativeY": 35,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -293,10 +323,7 @@
                 },
                 "ParentId": "6465b69d-f4a6-4a5c-a58d-e4dda93c687e",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "31.22667236328125%",
-                    "top": "2.8841810784061095%"
-                },
+                "edgeOffsets": 35,
                 "children": "Andrewgram"
             },
             "children": [],
